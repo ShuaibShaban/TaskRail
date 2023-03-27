@@ -84,6 +84,7 @@ GEM
     io-console (0.6.0)
     irb (1.6.3)
       reline (>= 0.3.0)
+    jwt (2.7.0)
     loofah (2.19.1)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
@@ -161,13 +162,14 @@ DEPENDENCIES
   bcrypt (~> 3.1.7)
   bootsnap
   debug
+  jwt
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   sqlite3 (~> 1.4)
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.0.2p107
+   ruby 2.7.4p191
 
 BUNDLED WITH
-   2.3.22
+   2.4.8
